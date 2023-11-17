@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="52dp"
+    android:layout_marginStart="10dp"
+    android:background="@drawable/filter_recyclerview_item_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingHorizontal="24dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFilterEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="14sp"
+        tools:text="🎉" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFilterType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/gray_text_color"
+        android:textSize="14sp"
+        tools:text="Party" />
+
+</LinearLayout>
